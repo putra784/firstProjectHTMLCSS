@@ -25,7 +25,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: 2121
           script: |
-            var/www/test1web/firstProjectHTMLCSS
+            cd var/www/test1web/firstProjectHTMLCSS
             git pull origin main
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
